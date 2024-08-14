@@ -16,6 +16,11 @@ To run this project, you will need to install the following Python packages:
 - `pdf2image`
 - `Pillow`
 
+```bash
+pip install -r requirements.txt
+
+```
+
 
 ### **Steps to Use the Project**
 
