@@ -8,3 +8,10 @@ This project automates the extraction of expense information from image-based re
 - **JSON Output:** Returns data in a structured JSON format for easy integration with other tools.
 - **Error Handling:** Gracefully handles file processing errors and API response issues.
 - **Batch Processing:** Processes multiple receipts at once from a CSV file and outputs results to a new CSV.
+
+## Requirements
+To run this project, you will need to install the following Python packages:
+- `requests`
+- `python-dotenv`
+- `pdf2image`
+- `Pillow`
