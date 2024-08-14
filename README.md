@@ -16,12 +16,6 @@ To run this project, you will need to install the following Python packages:
 - `pdf2image`
 - `Pillow`
 
-```bash
-pip install -r requirements.txt
-
-```
-
-
 ### **Steps to Use the Project**
 
 1. **Clone the Repository:**
@@ -31,32 +25,32 @@ pip install -r requirements.txt
    cd OCR
    ```
 
-3. **Set Up the Environment:**
-4. 
+2. **Set Up the Environment:**
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-5. **Configure API Key:**
+3. **Configure API Key:**
    -Create a `.env` file in the root of the project directory and add OpenAI API key as shown below:
 
    ```plaintext
    OPENAI_API_KEY=your_openai_api_key
    ```
 
-6. **Run the Script:**
+4. **Run the Script:**
    - Once everything is set up, they can run the main script that processes images and extracts data.
 
    ```bash
    python main.py
    ```
 
-8. **Modify the Prompt:**
+5. **Modify the Prompt:**
    - If you want to customize what information is extracted, they can modify the `prompt` variable in the script to change the criteria.
 
-9. **View Results:**
+6. **View Results:**
    - The script will process the images and save the extracted data to a CSV file (as per your code).
 
 ### **Common Use Case Flow**
