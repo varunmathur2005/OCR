@@ -45,13 +45,13 @@ To run this project, you will need to install the following Python packages:
    - Once everything is set up, they can run the main script that processes images and extracts data.
 
    ```bash
-   python main.py / python3 main.py
+   python main.py
    ```
 
-7. **Modify the Prompt:**
+8. **Modify the Prompt:**
    - If you want to customize what information is extracted, they can modify the `prompt` variable in the script to change the criteria.
 
-8. **View Results:**
+9. **View Results:**
    - The script will process the images and save the extracted data to a CSV file (as per your code).
 
 ### **Common Use Case Flow**
