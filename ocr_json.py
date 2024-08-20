@@ -18,18 +18,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 # Define the prompt as a variable that can be easily edited by the user
-user_prompt = """
-You are an accountant for a company. Your job is to extract expense information from the provided image document. Return the information in JSON format using the specified keys. If the information is not available, use null:
-1. totalAmount: total purchase amount without currency 
-2. currency: Currency code (ISO 4217)
-3. date: Carefully extract the date of purchase, receipt date, or invoice date in DD-MM-YYYY format. Return null if no date is present.
-4. time: Purchase time in HH:mm:ss format (24-hour)
-5. vatAmount: VAT amount charged
-6. supplierTrnNumber: Supplier's VAT number
-7. allDatesInReceipts: All dates in the document with their descriptions
-8. descriptionOfReceipt: A concise, single-line description of the expense with User-specific information (For example: Pre-Approval for work permit for Awab Yaqoob).
-9. suggestionForUploader: Suggestions to improve the image for AI extraction, if needed. Examples: "Please upload receipts instead of email or SMS confirmations," "Upload the actual invoice instead of a screenshot," "Only part of the image is visible; please upload the complete picture," "There is a smaller image on top of the document; please upload them separately," "Upload a clear picture"
-                        """
+user_prompt = """ **ADD PROMPT** """
 
 
 def process_csv(file_path):
